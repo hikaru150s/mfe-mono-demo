@@ -1,0 +1,247 @@
+{
+  "id": "todolist",
+  "name": "todolist",
+  "metaData": {
+    "name": "todolist",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "@mfe-mono/source"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "todolist",
+    "pluginVersion": "0.6.9",
+    "publicPath": "auto",
+    "prefetchInterface": false
+  },
+  "shared": [
+    {
+      "id": "todolist:@reduxjs/toolkit",
+      "name": "@reduxjs/toolkit",
+      "version": "1.9.3",
+      "singleton": true,
+      "requiredVersion": "^1.9.3",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "12.bc8debc5757cdda7.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "todolist:react-bootstrap/Button",
+      "name": "react-bootstrap/Button",
+      "version": "2.10.5",
+      "singleton": true,
+      "requiredVersion": "^2.10.5",
+      "assets": {
+        "js": {
+          "async": [
+            "13.32448b8c95b9ef23.js"
+          ],
+          "sync": [
+            "10.edbc31b56be81045.js",
+            "19.bf602f95a13c63b0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "todolist:react-bootstrap/Card",
+      "name": "react-bootstrap/Card",
+      "version": "2.10.5",
+      "singleton": true,
+      "requiredVersion": "^2.10.5",
+      "assets": {
+        "js": {
+          "async": [
+            "13.32448b8c95b9ef23.js"
+          ],
+          "sync": [
+            "14.d652160722e328df.js",
+            "20.ece97d28a6db3c5d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "todolist:react-bootstrap/Form",
+      "name": "react-bootstrap/Form",
+      "version": "2.10.5",
+      "singleton": true,
+      "requiredVersion": "^2.10.5",
+      "assets": {
+        "js": {
+          "async": [
+            "13.32448b8c95b9ef23.js"
+          ],
+          "sync": [
+            "6.648aa0e352ea038c.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "todolist:react-bootstrap/ListGroup",
+      "name": "react-bootstrap/ListGroup",
+      "version": "2.10.5",
+      "singleton": true,
+      "requiredVersion": "^2.10.5",
+      "assets": {
+        "js": {
+          "async": [
+            "13.32448b8c95b9ef23.js"
+          ],
+          "sync": [
+            "7.277648b89194fd45.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "todolist:react-dom",
+      "name": "react-dom",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [
+            "13.32448b8c95b9ef23.js"
+          ],
+          "sync": [
+            "11.5a3dee9f9fd7d62b.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "todolist:react-redux",
+      "name": "react-redux",
+      "version": "8.0.5",
+      "singleton": true,
+      "requiredVersion": "^8.0.5",
+      "assets": {
+        "js": {
+          "async": [
+            "13.32448b8c95b9ef23.js",
+            "11.5a3dee9f9fd7d62b.js"
+          ],
+          "sync": [
+            "5.a396a8399aba5cc9.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "todolist:react",
+      "name": "react",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "13.32448b8c95b9ef23.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "todolist:uuid",
+      "name": "uuid",
+      "version": "11.0.3",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "15.1316b2141417cf8c.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "todolist:Module",
+      "name": "Module",
+      "assets": {
+        "js": {
+          "sync": [
+            "17.fc7f899146172ecc.js",
+            "__federation_expose_Module.d1628e8349a6b043.js"
+          ],
+          "async": [
+            "13.32448b8c95b9ef23.js",
+            "5.a396a8399aba5cc9.js",
+            "12.bc8debc5757cdda7.js",
+            "15.1316b2141417cf8c.js",
+            "8.8b3606453baff6f3.js",
+            "19.bf602f95a13c63b0.js",
+            "20.ece97d28a6db3c5d.js",
+            "7.277648b89194fd45.js",
+            "6.648aa0e352ea038c.js",
+            "11.5a3dee9f9fd7d62b.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./Module"
+    }
+  ]
+}

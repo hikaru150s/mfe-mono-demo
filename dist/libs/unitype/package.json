@@ -1,0 +1,11 @@
+{
+  "name": "@mfe-mono/unitype",
+  "version": "0.0.1",
+  "dependencies": {
+    "jsonc-eslint-parser": "2.4.0"
+  },
+  "type": "commonjs",
+  "main": "./index.cjs",
+  "typings": "./index.d.ts",
+  "private": true
+}

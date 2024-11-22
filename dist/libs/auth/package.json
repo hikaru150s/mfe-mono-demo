@@ -1,0 +1,12 @@
+{
+  "name": "@mfe-mono/auth",
+  "version": "0.0.1",
+  "dependencies": {
+    "jose": "^5.9.6",
+    "jsonc-eslint-parser": "2.4.0"
+  },
+  "type": "commonjs",
+  "main": "./index.cjs",
+  "typings": "./index.d.ts",
+  "private": true
+}

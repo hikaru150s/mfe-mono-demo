@@ -1,0 +1,275 @@
+{
+  "id": "todolist",
+  "name": "todolist",
+  "metaData": {
+    "name": "todolist",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "@mfe-mono/source"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "todolist",
+    "pluginVersion": "0.6.9",
+    "publicPath": "auto"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^1.9.3",
+      "shareScope": "default",
+      "name": "@reduxjs/toolkit",
+      "version": "1.9.3",
+      "eager": false,
+      "id": "todolist:@reduxjs/toolkit",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "12.bc8debc5757cdda7.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.10.5",
+      "shareScope": "default",
+      "name": "react-bootstrap/Button",
+      "version": "2.10.5",
+      "eager": false,
+      "id": "todolist:react-bootstrap/Button",
+      "assets": {
+        "js": {
+          "async": [
+            "13.32448b8c95b9ef23.js"
+          ],
+          "sync": [
+            "10.edbc31b56be81045.js",
+            "19.bf602f95a13c63b0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.10.5",
+      "shareScope": "default",
+      "name": "react-bootstrap/Card",
+      "version": "2.10.5",
+      "eager": false,
+      "id": "todolist:react-bootstrap/Card",
+      "assets": {
+        "js": {
+          "async": [
+            "13.32448b8c95b9ef23.js"
+          ],
+          "sync": [
+            "14.d652160722e328df.js",
+            "20.ece97d28a6db3c5d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.10.5",
+      "shareScope": "default",
+      "name": "react-bootstrap/Form",
+      "version": "2.10.5",
+      "eager": false,
+      "id": "todolist:react-bootstrap/Form",
+      "assets": {
+        "js": {
+          "async": [
+            "13.32448b8c95b9ef23.js"
+          ],
+          "sync": [
+            "6.648aa0e352ea038c.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.10.5",
+      "shareScope": "default",
+      "name": "react-bootstrap/ListGroup",
+      "version": "2.10.5",
+      "eager": false,
+      "id": "todolist:react-bootstrap/ListGroup",
+      "assets": {
+        "js": {
+          "async": [
+            "13.32448b8c95b9ef23.js"
+          ],
+          "sync": [
+            "7.277648b89194fd45.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "name": "react-dom",
+      "version": "18.3.1",
+      "eager": false,
+      "id": "todolist:react-dom",
+      "assets": {
+        "js": {
+          "async": [
+            "13.32448b8c95b9ef23.js"
+          ],
+          "sync": [
+            "11.5a3dee9f9fd7d62b.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^8.0.5",
+      "shareScope": "default",
+      "name": "react-redux",
+      "version": "8.0.5",
+      "eager": false,
+      "id": "todolist:react-redux",
+      "assets": {
+        "js": {
+          "async": [
+            "13.32448b8c95b9ef23.js",
+            "11.5a3dee9f9fd7d62b.js"
+          ],
+          "sync": [
+            "5.a396a8399aba5cc9.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "name": "react",
+      "version": "18.3.1",
+      "eager": false,
+      "id": "todolist:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "13.32448b8c95b9ef23.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "shareScope": "default",
+      "name": "uuid",
+      "version": "11.0.3",
+      "eager": false,
+      "id": "todolist:uuid",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "15.1316b2141417cf8c.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./Module",
+      "id": "todolist:Module",
+      "name": "Module",
+      "requires": [],
+      "file": "src\\remote-entry.ts",
+      "assets": {
+        "js": {
+          "sync": [
+            "17.fc7f899146172ecc.js",
+            "__federation_expose_Module.d1628e8349a6b043.js"
+          ],
+          "async": [
+            "13.32448b8c95b9ef23.js",
+            "5.a396a8399aba5cc9.js",
+            "12.bc8debc5757cdda7.js",
+            "15.1316b2141417cf8c.js",
+            "8.8b3606453baff6f3.js",
+            "19.bf602f95a13c63b0.js",
+            "20.ece97d28a6db3c5d.js",
+            "7.277648b89194fd45.js",
+            "6.648aa0e352ea038c.js",
+            "11.5a3dee9f9fd7d62b.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      }
+    }
+  ]
+}

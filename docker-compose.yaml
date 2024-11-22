@@ -1,0 +1,99 @@
+name: mfe-mono
+
+networks:
+  mfe-mono:
+    driver: bridge
+
+services:
+  api-server:
+    build:
+      dockerfile: servers/api-server/Dockerfile
+    ports:
+      - '${API_SERVER_PORT}:${API_SERVER_PORT}'
+    env_file:
+      - .env
+    restart: unless-stopped
+    networks:
+      - mfe-mono
+    healthcheck:
+      test: ['CMD', 'wget', '-q', '--spider', 'http://localhost:${API_SERVER_PORT}/api']
+      interval: 10s
+      timeout: 10s
+      retries: 3
+      start_period: 0s
+  module-calculator:
+    build:
+      dockerfile: apps/modules/calculator/Dockerfile
+    environment:
+      - NX_PUBLIC_API_SERVER_ADDRESS=http://api-server
+    ports:
+      - '81:80'
+    restart: unless-stopped
+    networks:
+      - mfe-mono
+    healthcheck:
+      test: ['CMD', 'curl', '--fail', 'http://module-calculator']
+      interval: 10s
+      timeout: 10s
+      retries: 3
+      start_period: 0s
+  module-todolist:
+    build:
+      dockerfile: apps/modules/todolist/Dockerfile
+    environment:
+      - NX_PUBLIC_API_SERVER_ADDRESS=http://api-server
+    ports:
+      - '82:80'
+    restart: unless-stopped
+    networks:
+      - mfe-mono
+    healthcheck:
+      test: ['CMD', 'curl', '--fail', 'http://module-todolist']
+      interval: 10s
+      timeout: 10s
+      retries: 3
+      start_period: 0s
+  module-crud:
+    build:
+      dockerfile: apps/modules/crud/Dockerfile
+    environment:
+      - NX_PUBLIC_API_SERVER_ADDRESS=http://api-server
+    ports:
+      - '83:80'
+    restart: unless-stopped
+    networks:
+      - mfe-mono
+    healthcheck:
+      test: ['CMD', 'curl', '--fail', 'http://module-crud']
+      interval: 10s
+      timeout: 10s
+      retries: 3
+      start_period: 0s
+  shell:
+    depends_on:
+      api-server:
+        condition: service_healthy
+      module-calculator:
+        condition: service_healthy
+      module-todolist:
+        condition: service_healthy
+      module-crud:
+        condition: service_healthy
+    build:
+      dockerfile: apps/shell/Dockerfile
+    environment:
+      - NX_PUBLIC_API_SERVER_ADDRESS=http://api-server
+      - REMOTE_CALCULATOR=http://module-calculator
+      - REMOTE_TODOLIST=http://module-todolist
+      - REMOTE_CRUD=http://module-crud
+    ports:
+      - '80:80'
+    restart: unless-stopped
+    networks:
+      - mfe-mono
+    healthcheck:
+      test: ['CMD', 'curl', '--fail', 'http://shell']
+      interval: 10s
+      timeout: 10s
+      retries: 3
+      start_period: 0s

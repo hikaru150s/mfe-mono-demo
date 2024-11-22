@@ -1,0 +1,207 @@
+{
+  "id": "calculator",
+  "name": "calculator",
+  "metaData": {
+    "name": "calculator",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "@mfe-mono/source"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "calculator",
+    "pluginVersion": "0.6.9",
+    "publicPath": "auto",
+    "prefetchInterface": false
+  },
+  "shared": [
+    {
+      "id": "calculator:@reduxjs/toolkit",
+      "name": "@reduxjs/toolkit",
+      "version": "1.9.3",
+      "singleton": true,
+      "requiredVersion": "^1.9.3",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "13.2abf38b0ac1387fb.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "calculator:react-bootstrap/Button",
+      "name": "react-bootstrap/Button",
+      "version": "2.10.5",
+      "singleton": true,
+      "requiredVersion": "^2.10.5",
+      "assets": {
+        "js": {
+          "async": [
+            "14.c831e367e5a5b312.js"
+          ],
+          "sync": [
+            "7.0fcf6cd4a7f102ad.js",
+            "16.5703317043828603.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "calculator:react-bootstrap/Card",
+      "name": "react-bootstrap/Card",
+      "version": "2.10.5",
+      "singleton": true,
+      "requiredVersion": "^2.10.5",
+      "assets": {
+        "js": {
+          "async": [
+            "14.c831e367e5a5b312.js"
+          ],
+          "sync": [
+            "6.0318d1b68a25b3fe.js",
+            "15.4d4c189ebbd0c65f.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "calculator:react-bootstrap/Form",
+      "name": "react-bootstrap/Form",
+      "version": "2.10.5",
+      "singleton": true,
+      "requiredVersion": "^2.10.5",
+      "assets": {
+        "js": {
+          "async": [
+            "14.c831e367e5a5b312.js"
+          ],
+          "sync": [
+            "9.a8834a239fcb8895.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "calculator:react-dom",
+      "name": "react-dom",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [
+            "14.c831e367e5a5b312.js"
+          ],
+          "sync": [
+            "12.8e6353e63c64a39b.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "calculator:react-redux",
+      "name": "react-redux",
+      "version": "8.0.5",
+      "singleton": true,
+      "requiredVersion": "^8.0.5",
+      "assets": {
+        "js": {
+          "async": [
+            "14.c831e367e5a5b312.js",
+            "12.8e6353e63c64a39b.js"
+          ],
+          "sync": [
+            "8.aec9dbaba3d5af84.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "calculator:react",
+      "name": "react",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "14.c831e367e5a5b312.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "calculator:Module",
+      "name": "Module",
+      "assets": {
+        "js": {
+          "sync": [
+            "4.52d38d30dd31b6a9.js",
+            "__federation_expose_Module.1f1d6de80b0c1f70.js"
+          ],
+          "async": [
+            "14.c831e367e5a5b312.js",
+            "8.aec9dbaba3d5af84.js",
+            "13.2abf38b0ac1387fb.js",
+            "10.7c9570e54cfb0d2d.js",
+            "6.0318d1b68a25b3fe.js",
+            "9.a8834a239fcb8895.js",
+            "7.0fcf6cd4a7f102ad.js",
+            "12.8e6353e63c64a39b.js"
+          ]
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_Module.4d3cec703b8eb707.css"
+          ],
+          "async": []
+        }
+      },
+      "path": "./Module"
+    }
+  ]
+}

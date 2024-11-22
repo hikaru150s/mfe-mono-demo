@@ -1,0 +1,407 @@
+{
+  "id": "crud",
+  "name": "crud",
+  "metaData": {
+    "name": "crud",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "@mfe-mono/source"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "crud",
+    "pluginVersion": "0.6.9",
+    "publicPath": "auto"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "shareScope": "default",
+      "name": "@mfe-mono/api",
+      "version": "0.0.1",
+      "eager": false,
+      "id": "crud:@mfe-mono/api",
+      "assets": {
+        "js": {
+          "async": [
+            "23.6dd86a55766e2bcc.js"
+          ],
+          "sync": [
+            "21.6562f1748be74191.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^1.9.3",
+      "shareScope": "default",
+      "name": "@reduxjs/toolkit",
+      "version": "1.9.3",
+      "eager": false,
+      "id": "crud:@reduxjs/toolkit",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "20.a5fbda07990b01e5.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^8.2.0",
+      "shareScope": "default",
+      "name": "path-to-regexp",
+      "version": "8.2.0",
+      "eager": false,
+      "id": "crud:path-to-regexp",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "23.6dd86a55766e2bcc.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.10.5",
+      "shareScope": "default",
+      "name": "react-bootstrap/Alert",
+      "version": "2.10.5",
+      "eager": false,
+      "id": "crud:react-bootstrap/Alert",
+      "assets": {
+        "js": {
+          "async": [
+            "24.46d48c99e6633ca5.js",
+            "19.75ddb727b03d4ed6.js"
+          ],
+          "sync": [
+            "14.a7ad61b918e2ddf4.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.10.5",
+      "shareScope": "default",
+      "name": "react-bootstrap/Button",
+      "version": "2.10.5",
+      "eager": false,
+      "id": "crud:react-bootstrap/Button",
+      "assets": {
+        "js": {
+          "async": [
+            "24.46d48c99e6633ca5.js"
+          ],
+          "sync": [
+            "7.55aacded79f4971a.js",
+            "18.350dd3243ce36d1d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.10.5",
+      "shareScope": "default",
+      "name": "react-bootstrap/ButtonGroup",
+      "version": "2.10.5",
+      "eager": false,
+      "id": "crud:react-bootstrap/ButtonGroup",
+      "assets": {
+        "js": {
+          "async": [
+            "24.46d48c99e6633ca5.js"
+          ],
+          "sync": [
+            "10.63c2bd966ab8222a.js",
+            "28.1a3366a5ea5b44fa.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.10.5",
+      "shareScope": "default",
+      "name": "react-bootstrap/Card",
+      "version": "2.10.5",
+      "eager": false,
+      "id": "crud:react-bootstrap/Card",
+      "assets": {
+        "js": {
+          "async": [
+            "24.46d48c99e6633ca5.js"
+          ],
+          "sync": [
+            "5.aa1bac8178c9ae94.js",
+            "15.5540cb5496d4f4bc.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.10.5",
+      "shareScope": "default",
+      "name": "react-bootstrap/Form",
+      "version": "2.10.5",
+      "eager": false,
+      "id": "crud:react-bootstrap/Form",
+      "assets": {
+        "js": {
+          "async": [
+            "24.46d48c99e6633ca5.js"
+          ],
+          "sync": [
+            "13.e9e8019ef25db2cf.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.10.5",
+      "shareScope": "default",
+      "name": "react-bootstrap/Spinner",
+      "version": "2.10.5",
+      "eager": false,
+      "id": "crud:react-bootstrap/Spinner",
+      "assets": {
+        "js": {
+          "async": [
+            "24.46d48c99e6633ca5.js"
+          ],
+          "sync": [
+            "9.96ac2aa80137010f.js",
+            "25.7018befcab9df35e.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^2.10.5",
+      "shareScope": "default",
+      "name": "react-bootstrap/Table",
+      "version": "2.10.5",
+      "eager": false,
+      "id": "crud:react-bootstrap/Table",
+      "assets": {
+        "js": {
+          "async": [
+            "24.46d48c99e6633ca5.js"
+          ],
+          "sync": [
+            "8.1d6534794de09b25.js",
+            "22.33bce65154027ecf.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "name": "react-dom",
+      "version": "18.3.1",
+      "eager": false,
+      "id": "crud:react-dom",
+      "assets": {
+        "js": {
+          "async": [
+            "24.46d48c99e6633ca5.js"
+          ],
+          "sync": [
+            "19.75ddb727b03d4ed6.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^8.0.5",
+      "shareScope": "default",
+      "name": "react-redux",
+      "version": "8.0.5",
+      "eager": false,
+      "id": "crud:react-redux",
+      "assets": {
+        "js": {
+          "async": [
+            "24.46d48c99e6633ca5.js",
+            "19.75ddb727b03d4ed6.js"
+          ],
+          "sync": [
+            "11.f2143383e7dec42a.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^6.11.2",
+      "shareScope": "default",
+      "name": "react-router-dom",
+      "version": "6.11.2",
+      "eager": false,
+      "id": "crud:react-router-dom",
+      "assets": {
+        "js": {
+          "async": [
+            "24.46d48c99e6633ca5.js"
+          ],
+          "sync": [
+            "26.7b96cad623d92076.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "name": "react",
+      "version": "18.3.1",
+      "eager": false,
+      "id": "crud:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "24.46d48c99e6633ca5.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./Module",
+      "id": "crud:Module",
+      "name": "Module",
+      "requires": [],
+      "file": "src\\remote-entry.ts",
+      "assets": {
+        "js": {
+          "sync": [
+            "4.cb81b3d3297d5765.js",
+            "__federation_expose_Module.98a8c275a69c5812.js"
+          ],
+          "async": [
+            "24.46d48c99e6633ca5.js",
+            "26.7b96cad623d92076.js",
+            "11.f2143383e7dec42a.js",
+            "20.a5fbda07990b01e5.js",
+            "21.6562f1748be74191.js",
+            "16.1c3b3f26933e2b20.js",
+            "5.aa1bac8178c9ae94.js",
+            "12.213825620d4ed4ea.js",
+            "13.e9e8019ef25db2cf.js",
+            "7.55aacded79f4971a.js",
+            "8.1d6534794de09b25.js",
+            "10.63c2bd966ab8222a.js",
+            "9.96ac2aa80137010f.js",
+            "14.a7ad61b918e2ddf4.js",
+            "19.75ddb727b03d4ed6.js",
+            "23.6dd86a55766e2bcc.js"
+          ]
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_Module.1c074fad7c67108f.css"
+          ],
+          "async": []
+        }
+      }
+    }
+  ]
+}
