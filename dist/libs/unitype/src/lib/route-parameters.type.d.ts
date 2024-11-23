@@ -4,5 +4,5 @@ export type RouteParameters<Route extends string> = string extends Route ? Recor
     [P in ParamName]?: string;
 } : {
     [P in GetRouteParameter<Rest>]: string;
-}) & (Rest extends `${GetRouteParameter<Rest>}${infer Next}` ? RouteParameters<Next> : unknown) : {};
+}) & (Rest extends `${GetRouteParameter<Rest>}${infer Next}` ? RouteParameters<Next> : unknown) : Record<string, string>;
 export {};

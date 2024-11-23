@@ -1,4 +1,4 @@
-import { RouteParameters } from '../../../../unitype/src';
+import { RouteParameters } from '@mfe-mono/unitype';
 import { BaseResponse } from '../types/base-response.type';
 import { RestClientParameter } from '../types/rest-client-parameter.type';
 import { RestClientWithBodyParameter } from '../types/rest-client-with-boty-parameter.type';

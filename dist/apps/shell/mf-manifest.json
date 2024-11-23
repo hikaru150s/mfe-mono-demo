@@ -34,10 +34,10 @@
       "assets": {
         "js": {
           "async": [
-            "29.1ad3508f455659c5.js"
+            "44.9ed103502134f178.js"
           ],
           "sync": [
-            "43.938c1f7f478cd5d2.js"
+            "62.9d15bf98e7d62e0c.js"
           ]
         },
         "css": {
@@ -55,10 +55,32 @@
       "assets": {
         "js": {
           "async": [
-            "45.46fd696889b0008d.js"
+            "63.c484b367e1d84cdb.js"
           ],
           "sync": [
-            "40.3a4b5fa3584bc0cb.js"
+            "55.19228ed0ffd4e7a1.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "shell:@mfe-mono/lodash-wrapper",
+      "name": "@mfe-mono/lodash-wrapper",
+      "version": "0.0.1",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [
+            "31.db9bffedde9a9d7c.js",
+            "66.551590c4b6ec615b.js"
+          ],
+          "sync": [
+            "40.df310d3ec14b31b9.js"
           ]
         },
         "css": {
@@ -77,7 +99,7 @@
         "js": {
           "async": [],
           "sync": [
-            "49.b8e7b58d4e797746.js"
+            "67.37c37d8a039ddc5e.js"
           ]
         },
         "css": {
@@ -95,27 +117,80 @@
       "assets": {
         "js": {
           "async": [
-            "38.0aebbf19189a3e15.js",
-            "18.92acc8321e5b1928.js",
-            "49.b8e7b58d4e797746.js",
-            "22.126eb588ffb252cd.js",
-            "27.f188eb3a765bbbf9.js",
-            "17.dcb2280bd79f4425.js",
-            "26.0d45adb1be01062a.js",
-            "35.9f455ddafeb0e3df.js",
-            "16.d06ebd1971b9c2e0.js"
+            "53.da94d7ee63e0160b.js",
+            "26.a911f47f53df7029.js",
+            "67.37c37d8a039ddc5e.js",
+            "35.6dbfa44c2020c6f7.js",
+            "43.43af6efc00641d96.js",
+            "25.39fa06e2e12a8a38.js",
+            "39.117d09d112715d7b.js",
+            "49.84111a3dc737a68e.js",
+            "24.40e80d22cb0990e4.js"
           ],
           "sync": [
-            "5.639c8e4e2d4cb97e.js",
-            "19.bd06d7abaa58e3fa.js"
+            "11.62621fd2a5d7a2ac.js",
+            "29.3d816da1b987e93f.js"
           ]
         },
         "css": {
           "async": [],
           "sync": [
-            "5.4d3cec703b8eb707.css",
-            "19.4d3cec703b8eb707.css"
+            "11.4d3cec703b8eb707.css",
+            "29.4d3cec703b8eb707.css"
           ]
+        }
+      }
+    },
+    {
+      "id": "shell:clockv4/Module",
+      "name": "clockv4/Module",
+      "version": "0.0.0",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [
+            "25.39fa06e2e12a8a38.js",
+            "28.b95e4e9d1fecae80.js",
+            "64.2004af3297f63f69.js",
+            "53.da94d7ee63e0160b.js"
+          ],
+          "sync": [
+            "15.f4138616a119cd0c.js",
+            "61.101e6974238436ef.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": [
+            "15.490f7a8766e50247.css",
+            "61.490f7a8766e50247.css"
+          ]
+        }
+      }
+    },
+    {
+      "id": "shell:clockv5/Module",
+      "name": "clockv5/Module",
+      "version": "0.0.0",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [
+            "35.6dbfa44c2020c6f7.js",
+            "28.b95e4e9d1fecae80.js",
+            "41.64c13be7cd6ea7da.js",
+            "53.da94d7ee63e0160b.js"
+          ],
+          "sync": [
+            "4.8d16bc6e2b2c33ec.js",
+            "27.cd4c4da9173e19bb.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
         }
       }
     },
@@ -128,35 +203,35 @@
       "assets": {
         "js": {
           "async": [
-            "22.126eb588ffb252cd.js",
-            "12.ae68bb27d88944d5.js",
-            "23.1756f03433385f7b.js",
-            "30.a5517b07abfd5dc9.js",
-            "17.dcb2280bd79f4425.js",
-            "21.508d2c48e6776822.js",
-            "14.863089e05366a649.js",
-            "33.8a523f4d6a29412b.js",
-            "16.d06ebd1971b9c2e0.js",
-            "38.0aebbf19189a3e15.js",
-            "39.da614b1919705bf5.js",
-            "18.92acc8321e5b1928.js",
-            "49.b8e7b58d4e797746.js",
-            "43.938c1f7f478cd5d2.js",
-            "27.f188eb3a765bbbf9.js",
-            "26.0d45adb1be01062a.js",
-            "35.9f455ddafeb0e3df.js",
-            "29.1ad3508f455659c5.js"
+            "35.6dbfa44c2020c6f7.js",
+            "21.fe67cbffec09beca.js",
+            "37.f6bd274cfbf629f1.js",
+            "46.363a3c59c780e936.js",
+            "25.39fa06e2e12a8a38.js",
+            "32.82d4301ba802c8eb.js",
+            "22.f48cfc9ae497ff74.js",
+            "50.453e7309d17333c5.js",
+            "24.40e80d22cb0990e4.js",
+            "53.da94d7ee63e0160b.js",
+            "54.33de3f51fec97426.js",
+            "26.a911f47f53df7029.js",
+            "67.37c37d8a039ddc5e.js",
+            "62.9d15bf98e7d62e0c.js",
+            "43.43af6efc00641d96.js",
+            "39.117d09d112715d7b.js",
+            "49.84111a3dc737a68e.js",
+            "44.9ed103502134f178.js"
           ],
           "sync": [
-            "2.32e8c4f2b6a9f1fe.js",
-            "15.ebd7a893b2e4a50b.js"
+            "2.586fdeece5066946.js",
+            "23.f90ea44a8d9ce3ff.js"
           ]
         },
         "css": {
           "async": [],
           "sync": [
             "2.1c074fad7c67108f.css",
-            "15.1c074fad7c67108f.css"
+            "23.1c074fad7c67108f.css"
           ]
         }
       }
@@ -171,7 +246,91 @@
         "js": {
           "async": [],
           "sync": [
-            "45.46fd696889b0008d.js"
+            "63.c484b367e1d84cdb.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "shell:lodash-v3",
+      "name": "lodash-v3",
+      "version": "3.10.1",
+      "singleton": true,
+      "requiredVersion": "^3.10.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "shell:lodash-v4",
+      "name": "lodash-v4",
+      "version": "4.17.21",
+      "singleton": true,
+      "requiredVersion": "^4.17.21",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "shell:lodashv3/Module",
+      "name": "lodashv3/Module",
+      "version": "0.0.0",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [
+            "40.df310d3ec14b31b9.js",
+            "31.db9bffedde9a9d7c.js",
+            "66.551590c4b6ec615b.js",
+            "53.da94d7ee63e0160b.js"
+          ],
+          "sync": [
+            "6.5daa1b97a113a75a.js",
+            "33.89db1c56322d98b5.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "shell:lodashv4/Module",
+      "name": "lodashv4/Module",
+      "version": "0.0.0",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [
+            "40.df310d3ec14b31b9.js",
+            "31.db9bffedde9a9d7c.js",
+            "66.551590c4b6ec615b.js",
+            "53.da94d7ee63e0160b.js"
+          ],
+          "sync": [
+            "7.766d287b6d373831.js",
+            "34.f966b226707a19fd.js"
           ]
         },
         "css": {
@@ -190,7 +349,7 @@
         "js": {
           "async": [],
           "sync": [
-            "29.1ad3508f455659c5.js"
+            "44.9ed103502134f178.js"
           ]
         },
         "css": {
@@ -208,11 +367,11 @@
       "assets": {
         "js": {
           "async": [
-            "38.0aebbf19189a3e15.js",
-            "16.d06ebd1971b9c2e0.js"
+            "53.da94d7ee63e0160b.js",
+            "24.40e80d22cb0990e4.js"
           ],
           "sync": [
-            "33.8a523f4d6a29412b.js"
+            "50.453e7309d17333c5.js"
           ]
         },
         "css": {
@@ -230,11 +389,11 @@
       "assets": {
         "js": {
           "async": [
-            "38.0aebbf19189a3e15.js"
+            "53.da94d7ee63e0160b.js"
           ],
           "sync": [
-            "34.e9dac3280c2da1a1.js",
-            "35.9f455ddafeb0e3df.js"
+            "48.3cf897b3e5213a28.js",
+            "49.84111a3dc737a68e.js"
           ]
         },
         "css": {
@@ -252,11 +411,11 @@
       "assets": {
         "js": {
           "async": [
-            "38.0aebbf19189a3e15.js"
+            "53.da94d7ee63e0160b.js"
           ],
           "sync": [
-            "23.1756f03433385f7b.js",
-            "24.edd0781486ea1382.js"
+            "36.8be749a6b58883b6.js",
+            "37.f6bd274cfbf629f1.js"
           ]
         },
         "css": {
@@ -274,11 +433,10 @@
       "assets": {
         "js": {
           "async": [
-            "38.0aebbf19189a3e15.js"
+            "53.da94d7ee63e0160b.js"
           ],
           "sync": [
-            "27.f188eb3a765bbbf9.js",
-            "28.38a664e4acf0fb0a.js"
+            "43.43af6efc00641d96.js"
           ]
         },
         "css": {
@@ -296,12 +454,12 @@
       "assets": {
         "js": {
           "async": [
-            "38.0aebbf19189a3e15.js"
+            "53.da94d7ee63e0160b.js"
           ],
           "sync": [
-            "7.7930a54b22e5c86e.js",
-            "26.0d45adb1be01062a.js",
-            "44.7116d303988b99b4.js"
+            "12.df1137da589c278c.js",
+            "39.117d09d112715d7b.js",
+            "58.323e7af62fa5932b.js"
           ]
         },
         "css": {
@@ -319,11 +477,11 @@
       "assets": {
         "js": {
           "async": [
-            "38.0aebbf19189a3e15.js"
+            "53.da94d7ee63e0160b.js"
           ],
           "sync": [
-            "9.b7a2f023dd5ccede.js",
-            "47.e196dc16c5b3f64a.js"
+            "13.1dd8213f1f79109b.js",
+            "59.1fbeab9bf31e331d.js"
           ]
         },
         "css": {
@@ -341,10 +499,10 @@
       "assets": {
         "js": {
           "async": [
-            "38.0aebbf19189a3e15.js"
+            "53.da94d7ee63e0160b.js"
           ],
           "sync": [
-            "26.0d45adb1be01062a.js"
+            "39.117d09d112715d7b.js"
           ]
         },
         "css": {
@@ -362,10 +520,10 @@
       "assets": {
         "js": {
           "async": [
-            "38.0aebbf19189a3e15.js"
+            "53.da94d7ee63e0160b.js"
           ],
           "sync": [
-            "32.679bc4f726e7921c.js"
+            "47.d495eacea900390d.js"
           ]
         },
         "css": {
@@ -383,11 +541,11 @@
       "assets": {
         "js": {
           "async": [
-            "38.0aebbf19189a3e15.js",
-            "16.d06ebd1971b9c2e0.js"
+            "53.da94d7ee63e0160b.js",
+            "24.40e80d22cb0990e4.js"
           ],
           "sync": [
-            "37.7363c06adf2e14d2.js"
+            "52.973f4b9543c1ee2d.js"
           ]
         },
         "css": {
@@ -405,11 +563,11 @@
       "assets": {
         "js": {
           "async": [
-            "38.0aebbf19189a3e15.js"
+            "53.da94d7ee63e0160b.js"
           ],
           "sync": [
-            "10.754290fc110bd6ac.js",
-            "48.f38a347ea2b0ee00.js"
+            "14.1e83d2fee01ea15f.js",
+            "60.5ec2fe38ac15a512.js"
           ]
         },
         "css": {
@@ -427,11 +585,11 @@
       "assets": {
         "js": {
           "async": [
-            "38.0aebbf19189a3e15.js"
+            "53.da94d7ee63e0160b.js"
           ],
           "sync": [
-            "30.a5517b07abfd5dc9.js",
-            "31.42256625f778befc.js"
+            "45.9352fc591bf3c72b.js",
+            "46.363a3c59c780e936.js"
           ]
         },
         "css": {
@@ -449,12 +607,46 @@
       "assets": {
         "js": {
           "async": [
-            "38.0aebbf19189a3e15.js"
+            "53.da94d7ee63e0160b.js"
           ],
           "sync": [
-            "12.ae68bb27d88944d5.js",
-            "13.a51dd742d02e9d7f.js"
+            "20.60090c69689462bb.js",
+            "21.fe67cbffec09beca.js"
           ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "shell:react-clock-v4",
+      "name": "react-clock-v4",
+      "version": "4.6.0",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "shell:react-clock-v5",
+      "name": "react-clock-v5",
+      "version": "5.1.0",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
         },
         "css": {
           "async": [],
@@ -471,10 +663,10 @@
       "assets": {
         "js": {
           "async": [
-            "38.0aebbf19189a3e15.js"
+            "53.da94d7ee63e0160b.js"
           ],
           "sync": [
-            "16.d06ebd1971b9c2e0.js"
+            "24.40e80d22cb0990e4.js"
           ]
         },
         "css": {
@@ -492,11 +684,11 @@
       "assets": {
         "js": {
           "async": [
-            "38.0aebbf19189a3e15.js",
-            "16.d06ebd1971b9c2e0.js"
+            "53.da94d7ee63e0160b.js",
+            "24.40e80d22cb0990e4.js"
           ],
           "sync": [
-            "18.92acc8321e5b1928.js"
+            "26.a911f47f53df7029.js"
           ]
         },
         "css": {
@@ -514,10 +706,10 @@
       "assets": {
         "js": {
           "async": [
-            "38.0aebbf19189a3e15.js"
+            "53.da94d7ee63e0160b.js"
           ],
           "sync": [
-            "39.da614b1919705bf5.js"
+            "54.33de3f51fec97426.js"
           ]
         },
         "css": {
@@ -536,7 +728,7 @@
         "js": {
           "async": [],
           "sync": [
-            "38.0aebbf19189a3e15.js"
+            "53.da94d7ee63e0160b.js"
           ]
         },
         "css": {
@@ -554,22 +746,22 @@
       "assets": {
         "js": {
           "async": [
-            "36.647b7a2ecc93072a.js",
-            "38.0aebbf19189a3e15.js",
-            "18.92acc8321e5b1928.js",
-            "49.b8e7b58d4e797746.js",
-            "22.126eb588ffb252cd.js",
-            "27.f188eb3a765bbbf9.js",
-            "17.dcb2280bd79f4425.js",
-            "26.0d45adb1be01062a.js",
-            "35.9f455ddafeb0e3df.js",
-            "21.508d2c48e6776822.js",
-            "32.679bc4f726e7921c.js",
-            "16.d06ebd1971b9c2e0.js"
+            "51.3814ed97e98494c8.js",
+            "53.da94d7ee63e0160b.js",
+            "26.a911f47f53df7029.js",
+            "67.37c37d8a039ddc5e.js",
+            "35.6dbfa44c2020c6f7.js",
+            "43.43af6efc00641d96.js",
+            "25.39fa06e2e12a8a38.js",
+            "39.117d09d112715d7b.js",
+            "49.84111a3dc737a68e.js",
+            "32.82d4301ba802c8eb.js",
+            "47.d495eacea900390d.js",
+            "24.40e80d22cb0990e4.js"
           ],
           "sync": [
-            "11.8589d3f0b5276bd7.js",
-            "20.51a5f4e9eeedd14c.js"
+            "19.d9954d6b499cae88.js",
+            "30.97863fe7c5de1699.js"
           ]
         },
         "css": {
@@ -588,7 +780,7 @@
         "js": {
           "async": [],
           "sync": [
-            "36.647b7a2ecc93072a.js"
+            "51.3814ed97e98494c8.js"
           ]
         },
         "css": {

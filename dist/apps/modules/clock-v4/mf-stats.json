@@ -1,0 +1,122 @@
+{
+  "id": "clockv4",
+  "name": "clockv4",
+  "metaData": {
+    "name": "clockv4",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "@mfe-mono/source"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "clockv4",
+    "pluginVersion": "0.6.9",
+    "publicPath": "auto"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "shareScope": "default",
+      "name": "react-clock-v4",
+      "version": "4.6.0",
+      "eager": false,
+      "id": "clockv4:react-clock-v4",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "name": "react-dom",
+      "version": "18.3.1",
+      "eager": false,
+      "id": "clockv4:react-dom",
+      "assets": {
+        "js": {
+          "async": [
+            "6.e1b99ef08692a398.js"
+          ],
+          "sync": [
+            "8.2b4b23db1ccf1248.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "shareScope": "default",
+      "name": "react",
+      "version": "18.3.1",
+      "eager": false,
+      "id": "clockv4:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "6.e1b99ef08692a398.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./Module",
+      "id": "clockv4:Module",
+      "name": "Module",
+      "requires": [],
+      "file": "src\\remote-entry.ts",
+      "assets": {
+        "js": {
+          "sync": [
+            "4.5da7f4825da74c19.js",
+            "__federation_expose_Module.071d30271c67c8fb.js"
+          ],
+          "async": [
+            "6.e1b99ef08692a398.js",
+            "5.30db415f7b6e2000.js"
+          ]
+        },
+        "css": {
+          "sync": [
+            "__federation_expose_Module.490f7a8766e50247.css"
+          ],
+          "async": []
+        }
+      }
+    }
+  ]
+}

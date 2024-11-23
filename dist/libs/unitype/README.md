@@ -1,6 +1,6 @@
 # unitype
 
-This library was generated with [Nx](https://nx.dev).
+This library intended to encapsulates a shared data types that may required for some applications.
 
 ## Building
 

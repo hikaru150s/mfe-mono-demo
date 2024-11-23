@@ -1,0 +1,13 @@
+{
+  "name": "@mfe-mono/lodash-wrapper",
+  "version": "0.0.1",
+  "dependencies": {
+    "lodash": "4.17.21",
+    "lodash-v3": "npm:lodash@^3.10.1",
+    "jsonc-eslint-parser": "2.4.0"
+  },
+  "type": "commonjs",
+  "main": "./index.cjs",
+  "typings": "./index.d.ts",
+  "private": true
+}

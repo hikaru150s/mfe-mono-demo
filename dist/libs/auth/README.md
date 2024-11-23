@@ -1,6 +1,6 @@
 # auth
 
-This library was generated with [Nx](https://nx.dev).
+This library encapsulates auth data storing and retrieval.
 
 ## Building
 

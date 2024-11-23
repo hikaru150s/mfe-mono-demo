@@ -1,0 +1,151 @@
+{
+  "id": "lodashv4",
+  "name": "lodashv4",
+  "metaData": {
+    "name": "lodashv4",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "@mfe-mono/source"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "lodashv4",
+    "pluginVersion": "0.6.9",
+    "publicPath": "auto",
+    "prefetchInterface": false
+  },
+  "shared": [
+    {
+      "id": "lodashv4:@mfe-mono/lodash-wrapper",
+      "name": "@mfe-mono/lodash-wrapper",
+      "version": "0.0.1",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [
+            "9.994eb5caff86273a.js",
+            "6.288d0c12ca97390e.js"
+          ],
+          "sync": [
+            "10.5b29d62adcc23e07.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "lodashv4:lodash-v3",
+      "name": "lodash-v3",
+      "version": "3.10.1",
+      "singleton": true,
+      "requiredVersion": "^3.10.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "lodashv4:lodash-v4",
+      "name": "lodash-v4",
+      "version": "4.17.21",
+      "singleton": true,
+      "requiredVersion": "^4.17.21",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "lodashv4:react-dom",
+      "name": "react-dom",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [
+            "5.c67567e2e5eca303.js"
+          ],
+          "sync": [
+            "8.8bf8d290c9eae047.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "lodashv4:react",
+      "name": "react",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "5.c67567e2e5eca303.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "lodashv4:Module",
+      "name": "Module",
+      "assets": {
+        "js": {
+          "sync": [
+            "4.e1a72eb55f46465a.js",
+            "__federation_expose_Module.a320238be741d3d8.js"
+          ],
+          "async": [
+            "5.c67567e2e5eca303.js",
+            "10.5b29d62adcc23e07.js",
+            "9.994eb5caff86273a.js",
+            "6.288d0c12ca97390e.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./Module"
+    }
+  ]
+}

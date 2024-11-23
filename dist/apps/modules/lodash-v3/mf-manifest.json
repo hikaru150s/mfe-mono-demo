@@ -1,0 +1,134 @@
+{
+  "id": "lodashv3",
+  "name": "lodashv3",
+  "metaData": {
+    "name": "lodashv3",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "@mfe-mono/source"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "lodashv3",
+    "pluginVersion": "0.6.9",
+    "publicPath": "auto",
+    "prefetchInterface": false
+  },
+  "shared": [
+    {
+      "id": "lodashv3:@mfe-mono/lodash-wrapper",
+      "name": "@mfe-mono/lodash-wrapper",
+      "version": "0.0.1",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [
+            "6.2401b79b7f89aef0.js",
+            "10.5181ff2608c49bc3.js"
+          ],
+          "sync": [
+            "11.c84505e14879447d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "lodashv3:lodash-v3",
+      "name": "lodash-v3",
+      "version": "3.10.1",
+      "singleton": true,
+      "requiredVersion": "^3.10.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "lodashv3:react-dom",
+      "name": "react-dom",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [
+            "5.a0b10fe1b25c68ed.js"
+          ],
+          "sync": [
+            "9.5c879283a7d350c6.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "lodashv3:react",
+      "name": "react",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "5.a0b10fe1b25c68ed.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "lodashv3:Module",
+      "name": "Module",
+      "assets": {
+        "js": {
+          "sync": [
+            "4.2e5b2fe0934e8b7f.js",
+            "__federation_expose_Module.4cef7019a1ec4fb0.js"
+          ],
+          "async": [
+            "5.a0b10fe1b25c68ed.js",
+            "11.c84505e14879447d.js",
+            "6.2401b79b7f89aef0.js",
+            "10.5181ff2608c49bc3.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./Module"
+    }
+  ]
+}

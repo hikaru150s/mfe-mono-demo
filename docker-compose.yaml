@@ -69,6 +69,70 @@ services:
       timeout: 10s
       retries: 3
       start_period: 0s
+  module-lodash-v3:
+    build:
+      dockerfile: apps/modules/lodash-v3/Dockerfile
+    environment:
+      - NX_PUBLIC_API_SERVER_ADDRESS=http://api-server
+    ports:
+      - '84:80'
+    restart: unless-stopped
+    networks:
+      - mfe-mono
+    healthcheck:
+      test: ['CMD', 'curl', '--fail', 'http://module-lodash-v3']
+      interval: 10s
+      timeout: 10s
+      retries: 3
+      start_period: 0s
+  module-lodash-v4:
+    build:
+      dockerfile: apps/modules/lodash-v4/Dockerfile
+    environment:
+      - NX_PUBLIC_API_SERVER_ADDRESS=http://api-server
+    ports:
+      - '85:80'
+    restart: unless-stopped
+    networks:
+      - mfe-mono
+    healthcheck:
+      test: ['CMD', 'curl', '--fail', 'http://module-lodash-v4']
+      interval: 10s
+      timeout: 10s
+      retries: 3
+      start_period: 0s
+  module-clock-v4:
+    build:
+      dockerfile: apps/modules/clock-v4/Dockerfile
+    environment:
+      - NX_PUBLIC_API_SERVER_ADDRESS=http://api-server
+    ports:
+      - '86:80'
+    restart: unless-stopped
+    networks:
+      - mfe-mono
+    healthcheck:
+      test: ['CMD', 'curl', '--fail', 'http://module-clock-v4']
+      interval: 10s
+      timeout: 10s
+      retries: 3
+      start_period: 0s
+  module-clock-v5:
+    build:
+      dockerfile: apps/modules/clock-v5/Dockerfile
+    environment:
+      - NX_PUBLIC_API_SERVER_ADDRESS=http://api-server
+    ports:
+      - '87:80'
+    restart: unless-stopped
+    networks:
+      - mfe-mono
+    healthcheck:
+      test: ['CMD', 'curl', '--fail', 'http://module-clock-v5']
+      interval: 10s
+      timeout: 10s
+      retries: 3
+      start_period: 0s
   shell:
     depends_on:
       api-server:
@@ -79,6 +143,14 @@ services:
         condition: service_healthy
       module-crud:
         condition: service_healthy
+      module-lodash-v3:
+        condition: service_healthy
+      module-lodash-v4:
+        condition: service_healthy
+      module-clock-v4:
+        condition: service_healthy
+      module-clock-v5:
+        condition: service_healthy
     build:
       dockerfile: apps/shell/Dockerfile
     environment:
@@ -86,6 +158,10 @@ services:
       - REMOTE_CALCULATOR=http://module-calculator
       - REMOTE_TODOLIST=http://module-todolist
       - REMOTE_CRUD=http://module-crud
+      - REMOTE_LODASH_V3=http://module-lodash-v3
+      - REMOTE_LODASH_V4=http://module-lodash-v4
+      - REMOTE_CLOCK_V4=http://module-clock-v4
+      - REMOTE_CLOCK_V5=http://module-clock-v5
     ports:
       - '80:80'
     restart: unless-stopped

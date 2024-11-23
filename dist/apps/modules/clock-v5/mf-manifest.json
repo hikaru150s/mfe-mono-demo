@@ -1,0 +1,110 @@
+{
+  "id": "clockv5",
+  "name": "clockv5",
+  "metaData": {
+    "name": "clockv5",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.0",
+      "buildName": "@mfe-mono/source"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "clockv5",
+    "pluginVersion": "0.6.9",
+    "publicPath": "auto",
+    "prefetchInterface": false
+  },
+  "shared": [
+    {
+      "id": "clockv5:react-clock-v5",
+      "name": "react-clock-v5",
+      "version": "5.1.0",
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "clockv5:react-dom",
+      "name": "react-dom",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [
+            "6.e13bad9ec1940608.js"
+          ],
+          "sync": [
+            "8.d936bdd5d570c62e.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "clockv5:react",
+      "name": "react",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "6.e13bad9ec1940608.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "clockv5:Module",
+      "name": "Module",
+      "assets": {
+        "js": {
+          "sync": [
+            "4.95ffaa74667a386c.js",
+            "__federation_expose_Module.42b52dc395c33cd4.js"
+          ],
+          "async": [
+            "6.e13bad9ec1940608.js",
+            "5.e9a3c58904fb966b.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./Module"
+    }
+  ]
+}

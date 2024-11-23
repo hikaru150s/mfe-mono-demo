@@ -325,7 +325,7 @@ tslib_1.__decorate([
     tslib_1.__param(1, (0, common_1.Query)('page')),
     tslib_1.__param(2, (0, common_1.Query)('limit')),
     tslib_1.__metadata("design:type", Function),
-    tslib_1.__metadata("design:paramtypes", [String, String, String]),
+    tslib_1.__metadata("design:paramtypes", [String, Object, Object]),
     tslib_1.__metadata("design:returntype", Promise)
 ], ItemController.prototype, "findAll", null);
 tslib_1.__decorate([

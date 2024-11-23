@@ -1,6 +1,6 @@
 # api
 
-This library was generated with [Nx](https://nx.dev).
+This library is a collection of API abstraction and client that used by frontend to communicate with backend.
 
 ## Building
 
